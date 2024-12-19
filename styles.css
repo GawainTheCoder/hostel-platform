@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes for buttons or other UI elements */
+.btn-orange {
+    @apply bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-orange-600;
+}
+
+.btn-green {
+    @apply bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600;
+}
+
+.nav-link {
+    @apply text-gray-700 hover:text-orange-500;
+}
