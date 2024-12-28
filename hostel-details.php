@@ -99,37 +99,69 @@ The management team is available during business hours to address queries and pr
     <script src="scripts/script.js" defer></script>
 </head>
 <body class="bg-white text-gray-700 font-sans">
-
 <!-- Hero Section with Large Carousel & Quick Info Panel -->
-<section class="relative w-full bg-gray-100">
-    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 lg:p-8">
+<section 
+  class="relative w-full bg-gray-100 pt-10  <!-- prevents overlap with navbar if it's fixed -->"
+>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 px-4 py-8">
+        
+        <!-- Carousel Column -->
         <div class="lg:col-span-2 relative">
             <div class="carousel relative h-80 md:h-[500px] overflow-hidden rounded shadow">
                 <div class="carousel-images h-full w-full">
                     <?php foreach($images as $index => $img): ?>
-                        <img src="<?php echo $img; ?>" alt="Hostel Image <?php echo $index+1; ?>" class="w-full h-full object-cover <?php echo $index > 0 ? 'hidden' : ''; ?>">
+                        <img 
+                            src="<?php echo $img; ?>" 
+                            alt="Hostel Image <?php echo $index+1; ?>" 
+                            class="w-full h-full object-cover <?php echo $index > 0 ? 'hidden' : ''; ?>"
+                        >
                     <?php endforeach; ?>
                 </div>
-                <button class="carousel-prev absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">‹</button>
-                <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">›</button>
+                <!-- Carousel controls -->
+                <button 
+                  class="carousel-prev absolute left-2 top-1/2 -translate-y-1/2 bg-gray-700 bg-opacity-50 
+                         text-white px-3 py-1 rounded hover:bg-gray-800 z-10"
+                >
+                    ‹
+                </button>
+                <button 
+                  class="carousel-next absolute right-2 top-1/2 -translate-y-1/2 bg-gray-700 bg-opacity-50 
+                         text-white px-3 py-1 rounded hover:bg-gray-800 z-10"
+                >
+                    ›
+                </button>
             </div>
         </div>
         
-        <div class="lg:col-span-1 bg-white p-4 rounded shadow relative lg:-mt-20 lg:ml-0 z-10">
-            <h2 class="text-xl font-bold mb-2"><?php echo $title; ?></h2>
-            <p class="text-gray-600 mb-4"><?php echo $location; ?></p>
-            <p class="text-sm font-semibold text-gray-800 mb-4"><?php echo $price; ?></p>
+        <!-- Info Panel Column -->
+        <div class="lg:col-span-1 bg-white p-6 rounded shadow relative z-10">
+            <h2 class="text-2xl font-bold mb-2"><?php echo $title; ?></h2>
+            <p class="text-gray-600 mb-2"><?php echo $location; ?></p>
+            <p class="text-base font-semibold text-gray-800 mb-4"><?php echo $price; ?></p>
 
             <div class="flex space-x-2 mb-4">
-                <button class="btn-orange">Book Now</button>
-                <button class="btn-green">Enquire</button>
+                <button 
+                  class="btn-orange bg-orange-500 text-white px-4 py-2 rounded 
+                         hover:bg-orange-600 focus:outline-none"
+                >
+                  Book Now
+                </button>
+                <button 
+                  class="btn-green bg-green-500 text-white px-4 py-2 rounded
+                         hover:bg-green-600 focus:outline-none"
+                >
+                  Enquire
+                </button>
             </div>
 
-            <p class="text-xs text-gray-500">* Prices may vary depending on room type and availability.</p>
+            <p class="text-xs text-gray-500">
+                * Prices may vary depending on room type and availability.
+            </p>
         </div>
     </div>
 </section>
 
+<!-- Overview Section -->
 <section class="max-w-6xl mx-auto px-4 py-8">
     <h3 class="text-2xl font-bold mb-4">Overview</h3>
     <div class="relative">
@@ -139,14 +171,18 @@ The management team is available during business hours to address queries and pr
                 <?php echo nl2br($overviewMore); ?>
             </span>
         </p>
-        <button id="show-more-btn" class="mt-4 inline-block text-orange-500 hover:text-orange-600 font-semibold">
+        <button 
+          id="show-more-btn" 
+          class="mt-4 inline-block text-orange-500 hover:text-orange-600 font-semibold"
+        >
             Show more
         </button>
     </div>
 </section>
 
 <?php include 'includes/footer.php'; ?>
-</body>
+
+<!-- jQuery (if used for show-more) -->
 <script>
     // "Show more" functionality
     $(document).ready(function(){
@@ -162,4 +198,5 @@ The management team is available during business hours to address queries and pr
         });
     });
 </script>
+</body>
 </html>

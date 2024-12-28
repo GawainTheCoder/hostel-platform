@@ -1,5 +1,3 @@
-<?php include 'includes/header.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +10,7 @@
     <script src="scripts/script.js" defer></script>
 </head>
 <body class="bg-white text-gray-700 font-sans">
+<?php include 'includes/header.php'; ?>
 
 <!-- Banner Section -->
 <section class="relative w-full -mt-4">

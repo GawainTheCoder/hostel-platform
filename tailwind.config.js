@@ -2,12 +2,16 @@
 module.exports = {
   content: [    
     "./index.php",
+    "./hostel-details.php",
     "./includes/**/*.php",
-    "./hostels/**/*.php",
     "./scripts/**/*.js",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
