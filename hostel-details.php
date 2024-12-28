@@ -10,7 +10,7 @@ $images = [
     "assets/images/detail-hostel1-2.jpg",
     "assets/images/detail-hostel1-3.jpeg"
 ];
-$overviewMain = "The Al Hamad Girls Hostel stands as a modest accommodation option in the heart of the city, offering a comfortable living space for female students and working professionals.
+$overviewMain = "The Al Banat Girls Hostel stands as a modest accommodation option in the heart of the city, offering a comfortable living space for female students and working professionals.
 Room Types and Pricing
 The hostel primarily features well-maintained biseater and triseater rooms. The biseater rooms are priced at Rs. 13,000 per month, offering a balanced mix of privacy and affordability. Each room comes furnished with essential furniture including beds, study tables, and wardrobes.
 Building Structure
@@ -163,4 +163,3 @@ The management team is available during business hours to address queries and pr
     });
 </script>
 </html>
-abc 

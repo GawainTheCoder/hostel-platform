@@ -1,3 +1,5 @@
+<?php include 'includes/header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,31 +13,6 @@
 </head>
 <body class="bg-white text-gray-700 font-sans">
 
- <!-- Header Section -->
-<header class="bg-white shadow">
-    <div class="max-w-6xl mx-auto flex items-center justify-between py-2 px-4">
-        <div class="flex items-center space-x-4">
-            <!-- Logo -->
-            <a href="index.php" class="flex items-center">
-                <img src="assets/images/logo5.png" alt="Hostel Logo" class="h-10 w-10 object-contain" />
-            </a>
-        </div>
-        <nav class="flex space-x-6 text-sm font-medium">
-            <a href="#" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
-                Guides
-                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
-            </a>
-            <a href="#" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
-                Blog
-                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
-            </a>
-            <a href="#" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
-                Landlords
-                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
-            </a>
-        </nav>
-    </div>
-</header>
 <!-- Banner Section -->
 <section class="relative w-full -mt-4">
     <div class="aspect-[16/9] w-full">
@@ -125,36 +102,6 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-gray-900 text-white py-8">
-        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-                <h3 class="font-bold mb-2">About Us</h3>
-                <p class="text-sm text-gray-300">Home Away From Home (H2H) helps students find safe, affordable, and verified hostels in Pakistan. Simplified booking, student-friendly options — your perfect stay made easy.</p>
-            </div>
-            <div>
-                <h3 class="font-bold mb-2">Contact</h3>
-                <ul class="text-sm text-gray-300 space-y-1">
-                    <li>Email: info@hostelplatform.com</li>
-                    <li>Phone: +92 300 1234567</li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="font-bold mb-2">Social Media</h3>
-                <ul class="text-sm text-gray-300 space-y-1">
-                    <li><a href="#" class="hover:text-orange-500">Facebook</a></li>
-                    <li><a href="#" class="hover:text-orange-500">Instagram</a></li>
-                    <li><a href="#" class="hover:text-orange-500">Twitter</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="font-bold mb-2">Legal</h3>
-                <ul class="text-sm text-gray-300 space-y-1">
-                    <li><a href="#" class="hover:text-orange-500">Terms & Conditions</a></li>
-                    <li><a href="#" class="hover:text-orange-500">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
