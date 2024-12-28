@@ -2,6 +2,7 @@
 module.exports = {
   content: [    
     "./index.php",
+    "./landingpage.php",
     "./hostel-details.php",
     "./includes/**/*.php",
     "./scripts/**/*.js",

@@ -11,11 +11,14 @@
 
         <!-- Navigation -->
         <nav class="flex space-x-8 text-sm font-medium">
+            <a href="index.php" class="relative px-2 py-1 rounded text-sm bg-orange-500 text-white hover:bg-white hover:text-orange-500 border border-orange-500 transition duration-300">
+                Book Now
+            </a>
             <a href="#" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
                 Guides
                 <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
             </a>
-            <a href="#" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
+            <a href="landingpage.php" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
                 About
                 <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
             </a>
