@@ -5,6 +5,7 @@ module.exports = {
     "./guides.php",
     "./guide-detail1.php",
     "./guide-detail2.php",
+    "./landlords.php",
     "./landingpage.php",
     "./hostel-details.php",
     "./includes/**/*.php",

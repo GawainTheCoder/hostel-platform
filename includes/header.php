@@ -22,7 +22,7 @@
                 About
                 <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
             </a>
-            <a href="#" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
+            <a href="landlords.php" class="relative text-gray-700 hover:text-orange-500 transition duration-300">
                 Landlords
                 <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-500 transition-all duration-300 hover:w-full"></span>
             </a>

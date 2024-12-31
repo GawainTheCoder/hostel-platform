@@ -89,7 +89,7 @@
         Check out our useful student guides
       </h2>
       <!-- “See all guides” link (not functional at the moment) -->
-      <a href="#" class="text-orange-500 font-semibold hover:text-orange-600 flex items-center">
+      <a href="guides.php" class="text-orange-500 font-semibold hover:text-orange-600 flex items-center">
         See all guides 
         <span class="ml-1">→</span>
       </a>
@@ -110,7 +110,7 @@
           <p class="text-sm text-gray-600 mb-2">
             Use our tips to make sure you are ahead in the race to get the best place to live...
           </p>
-          <a href="#" class="text-orange-500 font-semibold hover:text-orange-600">
+          <a href="guide-detail1.php" class="text-orange-500 font-semibold hover:text-orange-600">
             Read guide →
           </a>
         </div>
@@ -129,7 +129,7 @@
           <p class="text-sm text-gray-600 mb-2">
             Many students are attracted to study in Lahore as a result...
           </p>
-          <a href="#" class="text-orange-500 font-semibold hover:text-orange-600">
+          <a href="guide-detail2.php" class="text-orange-500 font-semibold hover:text-orange-600">
             Read guide →
           </a>
         </div>
