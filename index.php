@@ -12,13 +12,6 @@
 <body class="bg-white text-gray-700 font-sans">
 <?php include 'includes/header.php'; ?>
 
-<!-- Banner Section -->
-<section class="relative w-full -mt-4">
-    <div class="aspect-[16/9] w-full">
-        <img src="assets/images/banner.jpg" alt="Home Away From Home" class="w-full h-full object-contain">
-    </div>
-</section>
-
 <!-- Filter Section -->
 <section class="max-w-6xl mx-auto py-6 px-4">
   <form class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">

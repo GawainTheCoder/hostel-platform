@@ -1,29 +1,28 @@
-<?php include 'includes/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Guides</title>
   <link rel="stylesheet" href="output.css" />
-  <!-- Tailwind (if you use a CDN, for example) -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet"> -->
 </head>
-<body class="bg-white text-gray-700 font-sans">
+<body class="bg-gray-50">
+  <?php include 'includes/header.php'; ?>
   
-  <section class="max-w-7xl mx-auto px-4 py-10">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
     <!-- Page Heading -->
-    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
       Helpful Guides for Students
     </h1>
-    <p class="text-gray-600 mb-10">
+    <p class="text-sm sm:text-base text-gray-600 mb-6 sm:mb-10">
       Find tips and advice on renting, dealing with landlords, and everything you need to know as a student.
     </p>
 
     <!-- Grid of Guides -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
       
       <!-- Guide 1 -->
-      <article class="bg-white shadow rounded overflow-hidden">
+      <article class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
         <img 
           src="https://via.placeholder.com/600x300?text=Guide+1+Image" 
           alt="Guide 1" 
@@ -46,7 +45,7 @@
       </article>
 
       <!-- Guide 2 -->
-      <article class="bg-white shadow rounded overflow-hidden">
+      <article class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
         <img 
           src="https://via.placeholder.com/600x300?text=Guide+2+Image" 
           alt="Guide 2" 
@@ -70,6 +69,6 @@
     </div>
   </section>
 
-<?php include 'includes/footer.php'; ?>
+  <?php include 'includes/footer.php'; ?>
 </body>
 </html>
