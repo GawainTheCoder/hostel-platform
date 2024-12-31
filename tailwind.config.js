@@ -2,6 +2,9 @@
 module.exports = {
   content: [    
     "./index.php",
+    "./guides.php",
+    "./guide-detail1.php",
+    "./guide-detail2.php",
     "./landingpage.php",
     "./hostel-details.php",
     "./includes/**/*.php",

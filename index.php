@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Hostel Platform - Lahore</title>
+    <title>Hostels in Lahore</title>
     <link rel="stylesheet" href="output.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts/script.js" defer></script>

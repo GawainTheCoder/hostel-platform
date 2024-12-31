@@ -13,7 +13,7 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Hero Section -->
-<section class="relative bg-green-800">
+<section class="relative bg-[#c7eae4]">
   <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
     
     <!-- Text Content -->
@@ -22,7 +22,7 @@
         The home of student accommodation
       </h1>
       <p class="text-lg text-gray-500 mb-6">
-        Search UK's No.1 Student Accommodation Website
+        Search Pk's No.1 Student Accommodation Website
       </p>
       <!-- Instead of a search bar, we have a "Book Now" button -->
       <a href="index.php" class="inline-block w-fit bg-orange-500 text-white px-6 py-3 rounded-md 
@@ -124,10 +124,10 @@
         >
         <div>
           <h3 class="text-lg font-bold text-gray-900 mb-1">
-            The student accommodation guide for international...
+            The student accommodation guide for out of town...
           </h3>
           <p class="text-sm text-gray-600 mb-2">
-            Many international students are attracted to study in the UK as a result...
+            Many students are attracted to study in Lahore as a result...
           </p>
           <a href="#" class="text-orange-500 font-semibold hover:text-orange-600">
             Read guide →

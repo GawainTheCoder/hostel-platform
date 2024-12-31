@@ -101,7 +101,7 @@ The management team is available during business hours to address queries and pr
 <body class="bg-white text-gray-700 font-sans">
 <!-- Hero Section with Large Carousel & Quick Info Panel -->
 <section 
-  class="relative w-full bg-gray-100 pt-10  <!-- prevents overlap with navbar if it's fixed -->"
+  class="relative w-full bg-gray-100 pt-4" 
 >
     <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 px-4 py-8">
         
@@ -140,13 +140,17 @@ The management team is available during business hours to address queries and pr
             <p class="text-base font-semibold text-gray-800 mb-4"><?php echo $price; ?></p>
 
             <div class="flex space-x-2 mb-4">
+                <!-- Book Now button triggers the booking form modal -->
                 <button 
+                  id="open-booking-modal"
                   class="btn-orange bg-orange-500 text-white px-4 py-2 rounded 
                          hover:bg-orange-600 focus:outline-none"
                 >
                   Book Now
                 </button>
+                <!-- Enquire button triggers the enquiry modal -->
                 <button 
+                  id="open-enquiry-modal"
                   class="btn-green bg-green-500 text-white px-4 py-2 rounded
                          hover:bg-green-600 focus:outline-none"
                 >
@@ -182,20 +186,186 @@ The management team is available during business hours to address queries and pr
 
 <?php include 'includes/footer.php'; ?>
 
-<!-- jQuery (if used for show-more) -->
+<!-- ================== MODALS (HIDDEN BY DEFAULT) ================== -->
+
+<!-- BACKDROP for both modals -->
+<div id="modal-backdrop" 
+     class="hidden fixed inset-0 bg-black bg-opacity-50 z-40">
+</div>
+
+<!-- BOOKING MODAL -->
+<div id="booking-modal" 
+     class="hidden fixed inset-0 z-50 flex items-center justify-center">
+  <div class="bg-white w-full max-w-md mx-4 p-6 rounded shadow relative">
+    <!-- Close button -->
+    <button 
+      id="close-booking-modal" 
+      class="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-xl font-bold"
+    >
+      &times;
+    </button>
+    <!-- Booking Form -->
+    <h2 class="text-xl font-bold mb-4">Book Hostel</h2>
+    
+    <!-- Success message (hidden by default) -->
+    <div id="booking-success-message" class="hidden p-4 bg-green-100 text-green-800 mb-4 rounded">
+      Success! You will be contacted within 1-2 days for confirmation.
+    </div>
+
+    <form id="booking-form">
+      <div class="mb-4">
+        <label for="fullName" class="block text-sm font-semibold mb-1">Full Name *</label>
+        <input 
+          type="text" 
+          id="fullName" 
+          name="fullName" 
+          class="w-full border border-gray-300 rounded px-3 py-2" 
+          required
+        />
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-semibold mb-1">Email *</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          class="w-full border border-gray-300 rounded px-3 py-2"
+          required
+        />
+      </div>
+      <div class="mb-4">
+        <label for="phone" class="block text-sm font-semibold mb-1">Phone Number *</label>
+        <input 
+          type="tel" 
+          id="phone" 
+          name="phone" 
+          class="w-full border border-gray-300 rounded px-3 py-2"
+          required
+        />
+      </div>
+      <div class="mb-4">
+        <label for="startDate" class="block text-sm font-semibold mb-1">Preferred Start Date *</label>
+        <input 
+          type="date" 
+          id="startDate" 
+          name="startDate" 
+          class="w-full border border-gray-300 rounded px-3 py-2"
+          required
+        />
+      </div>
+      <div class="mb-4">
+        <label for="endDate" class="block text-sm font-semibold mb-1">Preferred End Date *</label>
+        <input 
+          type="date" 
+          id="endDate" 
+          name="endDate" 
+          class="w-full border border-gray-300 rounded px-3 py-2"
+          required
+        />
+      </div>
+      <button 
+        type="submit" 
+        class="w-full bg-orange-500 text-white py-2 rounded font-semibold hover:bg-orange-600"
+      >
+        Submit Booking
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- ENQUIRY MODAL -->
+<div id="enquiry-modal" 
+     class="hidden fixed inset-0 z-50 flex items-center justify-center">
+  <div class="bg-white w-full max-w-sm mx-4 p-6 rounded shadow relative">
+    <!-- Close button -->
+    <button 
+      id="close-enquiry-modal" 
+      class="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-xl font-bold"
+    >
+      &times;
+    </button>
+    <h2 class="text-xl font-bold mb-4">Contact Landlord</h2>
+    <p class="mb-4 text-gray-700">
+      You can reach the landlord instantly via WhatsApp! 
+      <br/>
+      <span class="text-sm text-gray-500">*(This is a demo; no actual WhatsApp link.)*</span>
+    </p>
+    <!-- Demo link -->
+    <a href="#" 
+       class="inline-block bg-green-500 text-white px-4 py-2 rounded font-semibold 
+              hover:bg-green-600 transition-colors"
+    >
+      Contact on WhatsApp
+    </a>
+  </div>
+</div>
+
+<!-- ================== SCRIPTS ================== -->
 <script>
     // "Show more" functionality
     $(document).ready(function(){
-        $('#show-more-btn').on('click', function() {
-            const additionalText = $('#additional-text');
-            if (additionalText.hasClass('hidden')) {
-                additionalText.removeClass('hidden');
-                $(this).text('Show less');
-            } else {
-                additionalText.addClass('hidden');
-                $(this).text('Show more');
-            }
-        });
+      $('#show-more-btn').on('click', function() {
+          const additionalText = $('#additional-text');
+          if (additionalText.hasClass('hidden')) {
+              additionalText.removeClass('hidden');
+              $(this).text('Show less');
+          } else {
+              additionalText.addClass('hidden');
+              $(this).text('Show more');
+          }
+      });
+      
+      // MODAL TOGGLE LOGIC
+      const modalBackdrop = $('#modal-backdrop');
+      
+      // Booking modal
+      const bookingModal = $('#booking-modal');
+      const openBookingBtn = $('#open-booking-modal');
+      const closeBookingBtn = $('#close-booking-modal');
+      
+      // Enquiry modal
+      const enquiryModal = $('#enquiry-modal');
+      const openEnquiryBtn = $('#open-enquiry-modal');
+      const closeEnquiryBtn = $('#close-enquiry-modal');
+
+      // Open booking modal
+      openBookingBtn.on('click', function(){
+        modalBackdrop.removeClass('hidden');
+        bookingModal.removeClass('hidden');
+      });
+      // Close booking modal
+      closeBookingBtn.on('click', function(){
+        bookingModal.addClass('hidden');
+        modalBackdrop.addClass('hidden');
+      });
+
+      // Open enquiry modal
+      openEnquiryBtn.on('click', function(){
+        modalBackdrop.removeClass('hidden');
+        enquiryModal.removeClass('hidden');
+      });
+      // Close enquiry modal
+      closeEnquiryBtn.on('click', function(){
+        enquiryModal.addClass('hidden');
+        modalBackdrop.addClass('hidden');
+      });
+
+      // If user clicks backdrop, close any open modal
+      modalBackdrop.on('click', function(){
+        bookingModal.addClass('hidden');
+        enquiryModal.addClass('hidden');
+        modalBackdrop.addClass('hidden');
+      });
+
+      // Booking form submission
+      $('#booking-form').on('submit', function(e) {
+        e.preventDefault(); // stop actual submission
+        // You could do client-side validation here if needed
+        
+        // If fields are valid, show success message
+        $('#booking-form').hide(); // hide the form
+        $('#booking-success-message').removeClass('hidden'); // show the success message
+      });
     });
 </script>
 </body>
