@@ -36,5 +36,19 @@ $(document).ready(function() {
             $('[data-location="' + selectedLocation + '"]').show();
         }
     });
+
+    // Filter functionality
+    $('#location').on('change', function() {
+        var selectedLocation = $(this).val();
+        
+        if (!selectedLocation) {
+            // No location selected, show all hostels
+            $('[data-location]').show();
+        } else {
+            // Hide all, then show only those that match the selected location
+            $('[data-location]').hide();
+            $('[data-location="' + selectedLocation + '"]').show();
+        }
+    });
 });
 

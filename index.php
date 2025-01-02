@@ -17,13 +17,12 @@
   <form class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
     <div class="flex flex-col w-64">
       <select id="location" name="location" class="border border-gray-300 rounded p-2">
-        <option value="">Select Location</option>
+        <option value="">All Locations</option>
         <option value="johar-town">Johar Town</option>
         <option value="dha">DHA</option>
         <option value="model-town">Muslim Town</option>
       </select>
     </div>
-    <button type="button" id="filterBtn" class="btn-orange">Search</button>
   </form>
 </section>
 
