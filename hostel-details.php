@@ -91,6 +91,15 @@ The management team is available during business hours to address queries and pr
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHZP3XTV');</script>
+<!-- End Google Tag Manager -->
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Hostel Details - Lahore</title>
@@ -99,6 +108,12 @@ The management team is available during business hours to address queries and pr
     <script src="scripts/script.js" defer></script>
 </head>
 <body class="bg-white text-gray-700 font-sans">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHZP3XTV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- Hero Section with Large Carousel & Quick Info Panel -->
 <section 
   class="relative w-full bg-gray-100 pt-4" 
