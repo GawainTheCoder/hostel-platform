@@ -91,7 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">›</button>
                 </div>
                 <div class="p-4">
-                    <h2 class="font-bold text-lg mb-2">Spacious Hostel in DHA</h2>
+                    <h2 class="font-bold text-lg mb-2">Uptown Hostel in DHA</h2>
                     <p class="text-sm text-gray-600 mb-1">DHA, Lahore</p>
                     <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 20,000/month</p>
                     <a href="hostel-details.php?hostel=2" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>                    </div>

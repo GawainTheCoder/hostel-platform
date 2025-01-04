@@ -26,7 +26,7 @@ For inquiries about room availability and booking procedures, interested candida
 
 // If hostel ID is 2
 if ($hostelId == 2) {
-    $title = "Spacious Hostel in DHA";
+    $title = "Uptown Hostel in DHA";
     $location = "DHA, Lahore";
     $price = "From PKR 20,000/month";
     $images = [
@@ -362,7 +362,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           required
         />
       </div>
-      
+
       <button 
         type="submit" 
         class="w-full bg-orange-500 text-white py-2 rounded font-semibold hover:bg-orange-600"
