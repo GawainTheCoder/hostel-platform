@@ -349,6 +349,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           required
         />
       </div>
+
+            <!-- New University Field -->
+            <div class="mb-4">
+        <label for="university" class="block text-sm font-semibold mb-1">University/College *</label>
+        <input 
+          type="text" 
+          id="university" 
+          name="university" 
+          placeholder="Enter your university name"
+          class="w-full border border-gray-300 rounded px-3 py-2"
+          required
+        />
+      </div>
+      
       <button 
         type="submit" 
         class="w-full bg-orange-500 text-white py-2 rounded font-semibold hover:bg-orange-600"

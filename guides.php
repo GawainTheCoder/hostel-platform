@@ -62,16 +62,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Guide 2 -->
       <article class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
         <img 
-          src="https://via.placeholder.com/600x300?text=Guide+2+Image" 
+          src="assets/images/guide2.1.jpg" 
           alt="Guide 2" 
           class="w-full h-48 object-cover"
         >
         <div class="p-4">
           <h2 class="text-xl font-bold text-gray-900 mb-2">
-            How to prepare for university accommodation
+          How to Register for a Hostel with H2H Using WhatsApp
           </h2>
           <p class="text-sm text-gray-600 mb-4">
-            Everything you need to pack, questions to ask, and tips for moving day...
+          Struggling to find the perfect hostel in Lahore? Or don't...
           </p>
           <a 
             href="guide-detail2.php" 

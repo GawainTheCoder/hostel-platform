@@ -73,6 +73,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+
+
 <!-- Guides Section (Check out our useful student guides) -->
 <section class="bg-white py-10">
   <div class="max-w-7xl mx-auto px-4">
@@ -110,16 +112,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Card 2 -->
       <div class="bg-white shadow rounded-md p-4 flex flex-col md:flex-row items-center">
         <img 
-          src="https://via.placeholder.com/300x200?text=Guide+Image" 
+          src="assets/images/guide2.1.jpg" 
           alt="Guide Image" 
           class="w-full md:w-48 h-32 object-cover rounded mb-4 md:mb-0 md:mr-4"
         >
         <div>
           <h3 class="text-lg font-bold text-gray-900 mb-1">
-            The student accommodation guide for out of town...
+          How to Register for a Hostel with H2H Using WhatsApp...
           </h3>
           <p class="text-sm text-gray-600 mb-2">
-            Many students are attracted to study in Lahore as a result...
+          Struggling to find the perfect hostel in Lahore?...
           </p>
           <a href="guide-detail2.php" class="text-orange-500 font-semibold hover:text-orange-600">
             Read guide →
@@ -137,17 +139,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
         What students think of us
       </h2>
-      <!-- Trustpilot snippet or rating -->
-      <div class="flex items-center space-x-2">
-        <p class="text-sm font-semibold text-gray-700">Excellent</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Trustpilot_logo_black_and_green.svg" 
-             alt="Trustpilot" class="h-5 w-auto" />
-        <p class="text-sm text-gray-700">658 reviews on</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Trustpilot_logo_black_and_green.svg"
-             alt="Trustpilot" class="h-5 w-auto" />
+          <!-- Trustpilot snippet or rating -->
+          <div class="flex items-center space-x-2">
       </div>
     </div>
-    
     <!-- Review cards -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <!-- Review 1 -->
@@ -156,7 +151,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- Initials or avatar -->
           <div class="w-10 h-10 mr-3">
     <img 
-        src="assets/images/katie.png" 
+        src="assets/images/R1.png" 
         alt="Profile picture" 
         class="w-full h-full rounded-full object-cover"
     />
@@ -176,7 +171,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="flex items-center mb-2">
           <div class="w-10 h-10 mr-3">
             <img 
-              src="assets/images/olivia.png" 
+              src="assets/images/R2.png" 
               alt="Profile picture" 
               class="w-full h-full rounded-full object-cover"
             />
@@ -196,7 +191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="flex items-center mb-2">
           <div class="w-10 h-10 mr-3">
             <img 
-              src="assets/images/hr.jpg" 
+              src="assets/images/R3.png" 
               alt="Profile picture" 
               class="w-full h-full rounded-full object-cover"
             />
