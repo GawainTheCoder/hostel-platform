@@ -74,6 +74,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
+<!-- Featured Hostels Section -->
+<section class="bg-gray-100 py-12">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
+                Hostels in Lahore
+            </h2>
+            <a href="index.php" class="text-orange-500 hover:text-orange-600 font-medium">View All</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Hostel Card 1 -->
+            <div class="bg-white rounded shadow overflow-hidden">
+                <div class="carousel relative">
+                    <div class="carousel-images">
+                        <img src="assets/images/detail-hostel1-1.jpg" alt="Hostel Image 1" class="w-full h-48 object-cover">
+                        <img src="assets/images/detail-hostel1-2.jpg" alt="Hostel Image 2" class="w-full h-48 object-cover hidden">
+                    </div>
+                    <button class="carousel-prev absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">‹</button>
+                    <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">›</button>
+                </div>
+                <div class="p-4">
+                    <h2 class="font-bold text-lg mb-2">Al Banat Girls Hostel</h2>
+                    <p class="text-sm text-gray-600 mb-1">Johar Town, Lahore</p>
+                    <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 13,000/month</p>
+                    <a href="hostel-details.php?hostel=1" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>
+                </div>
+            </div>
+
+            <!-- Hostel Card 2 -->
+            <div class="bg-white rounded shadow overflow-hidden">
+                <div class="carousel relative">
+                    <div class="carousel-images">
+                        <img src="assets/images/detail-hostel2-1.png" alt="Hostel Image 1" class="w-full h-48 object-cover">
+                        <img src="assets/images/detail-hostel2-2.png" alt="Hostel Image 2" class="w-full h-48 object-cover hidden">
+                    </div>
+                    <button class="carousel-prev absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">‹</button>
+                    <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">›</button>
+                </div>
+                <div class="p-4">
+                    <h2 class="font-bold text-lg mb-2">Spacious Hostel in DHA</h2>
+                    <p class="text-sm text-gray-600 mb-1">DHA, Lahore</p>
+                    <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 20,000/month</p>
+                    <a href="hostel-details.php?hostel=2" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Guides Section (Check out our useful student guides) -->
 <section class="bg-white py-10">
@@ -93,16 +142,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Card 1 -->
       <div class="bg-white shadow rounded-md p-4 flex flex-col md:flex-row items-center">
         <img 
-          src="https://via.placeholder.com/300x200?text=Guide+Image" 
+          src="assets/images/guide1.1.jpg" 
           alt="Guide Image" 
           class="w-full md:w-48 h-32 object-cover rounded mb-4 md:mb-0 md:mr-4"
         >
         <div>
           <h3 class="text-lg font-bold text-gray-900 mb-1">
-            The ultimate guide to finding student accommodation
+          How to Choose the Perfect Hostel for Your Needs
           </h3>
           <p class="text-sm text-gray-600 mb-2">
-            Use our tips to make sure you are ahead in the race to get the best place to live...
+          Finding a hostel that feels like home can be a challenge, but it doesn’t have to be...
           </p>
           <a href="guide-detail1.php" class="text-orange-500 font-semibold hover:text-orange-600">
             Read guide →

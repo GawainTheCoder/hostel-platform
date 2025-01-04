@@ -39,16 +39,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Guide 1 -->
       <article class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
         <img 
-          src="https://via.placeholder.com/600x300?text=Guide+1+Image" 
+          src="assets/images/guide1.1.jpg" 
           alt="Guide 1" 
           class="w-full h-48 object-cover"
         >
         <div class="p-4">
           <h2 class="text-xl font-bold text-gray-900 mb-2">
-            What should I get from my landlord when I have agreed to rent?
+          How to Choose the Perfect Hostel for Your Needs
           </h2>
           <p class="text-sm text-gray-600 mb-4">
-            A quick look at the key documents and agreements you'll need from your landlord...
+          Finding a hostel that feels like home can be a challenge, but it doesn’t have to be...
           </p>
           <a 
             href="guide-detail1.php" 

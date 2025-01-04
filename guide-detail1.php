@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What should I get from my landlord?</title>
+  <title>How to Choose the Perfect Hostel for Your Needs</title>
   <link rel="stylesheet" href="output.css" />
 </head>
 <body class="bg-white text-gray-700 font-sans">
@@ -28,74 +28,77 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <!-- Article Heading & Metadata -->
     <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-      What should I get from the landlord when I rent a property?
+    How to Choose the Perfect Hostel for Your Needs
     </h1>
     <p class="text-xs sm:text-sm text-gray-500 mb-4 sm:mb-6">
-      By Sophia Crothall &middot; 30 December 2024 &middot; 4 min read
+      By Staff &middot; 30 December 2024 &middot; 4 min read
     </p>
 
     <!-- Hero image with orange overlay text -->
     <div class="w-full rounded overflow-hidden shadow mb-4 sm:mb-6 relative">
       <img 
-        src="https://via.placeholder.com/800x400?text=Hero+Image" 
+        src="assets/images/guide1.1.jpg" 
         alt="Landlord agreement" 
         class="w-full h-48 sm:h-64 md:h-72 object-cover"
       >
     </div>
 
-    <!-- Social share icons (just placeholders) -->
-    <div class="flex items-center space-x-4 mb-6">
-      <a 
-        href="#" 
-        class="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
-      >
-        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24"><path d="..."/></svg>
-        Facebook
-      </a>
-      <a 
-        href="#" 
-        class="flex items-center text-gray-600 hover:text-sky-400 transition-colors"
-      >
-        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24"><path d="..."/></svg>
-        Twitter
-      </a>
-      <a 
-        href="#" 
-        class="flex items-center text-gray-600 hover:text-red-500 transition-colors"
-      >
-        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24"><path d="..."/></svg>
-        Email
-      </a>
-    </div>
-
     <!-- Article content -->
     <article class="prose max-w-none">
-      <h3 class="font-bold text-xl mb-2">Tenancy Agreement:</h3>
-      <p>
-        This is the main document you will get from your landlord. It’s a legally binding contract 
-        between you and your landlord and this document should include details like:
-      </p>
-      <ul class="list-disc list-inside mb-4">
-        <li>Start and end dates of the tenancy.</li>
-        <li>Rent amount and payment schedule.</li>
-        <li>Any additional fees or deposit details.</li>
-      </ul>
+    <div class="mb-8">
+        <p class="text-lg text-gray-700 mb-6">
+            Finding a hostel that feels like home can be a challenge, but it doesn't have to be! With a little planning and the right platform (like H2H), you can easily pick a place that's just right for you. Here's a quick and easy guide to help you out:
+        </p>
 
-      <p>
-        You should read this carefully before signing, and make sure you understand your responsibilities 
-        and rights. If anything is unclear, ask for clarification.
-      </p>
+        <div class="space-y-8">
+            <div>
+                <h3 class="font-bold text-xl mb-3">1. Think About Your Budget</h3>
+                <p class="text-gray-600">
+                    Start by setting a budget. How much can you spend on rent each month? Don't forget to include extra costs like security deposits or utilities like AC and Wi-Fi. H2H lets you compare prices and find options that fit your pocket. Affordable hostels in Lahore are just a few clicks away!
+                </p>
+            </div>
 
-      <h3 class="font-bold text-xl mb-2">Inventory or Check-In Report:</h3>
-      <p>
-        Your landlord should provide an inventory of the items in the property and note any damage. 
-        This helps protect both parties from disputes later on.
-      </p>
+            <div>
+                <h3 class="font-bold text-xl mb-3">2. Location Matters</h3>
+                <p class="text-gray-600">
+                    The closer your hostel is to your university or workplace, the better. It saves time and travel costs. Use H2H's filters to find hostels near your desired area, whether it's Muslim Town, Johar Town, or anywhere else in Lahore. Convenience is key, and H2H ensures you'll find hostels in Lahore's prime locations.
+                </p>
+            </div>
 
-      <p>
-        <em>Placeholder text… more helpful info goes here…</em>
-      </p>
-    </article>
+            <div>
+                <h3 class="font-bold text-xl mb-3">3. Check the Facilities</h3>
+                <p class="text-gray-600">
+                    Do you need a mess for meals or a laundry service? Are you okay with shared rooms, or do you prefer something more private? Look for hostels with features like study areas, clean washrooms, and reliable Wi-Fi. On H2H, you can see all these details at a glance.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xl mb-3">4. Safety First</h3>
+                <p class="text-gray-600">
+                    Your safety should always come first. Look for hostels with CCTV cameras, secure gates, and guards. At H2H, we verify listings so you can trust the options we show. Verified hostels in Lahore are just one of the ways we make your search stress-free.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xl mb-3">5. Use H2H to Make It Easy</h3>
+                <p class="text-gray-600">
+                    Finding the perfect hostel is super easy with H2H. Browse verified listings, read reviews, and even chat with our support team on WhatsApp if you need help. You can even message us in Roman Urdu! H2H makes hostel hunting in Lahore quick and hassle-free.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-xl mb-3">6. Adjusting to Hostel Life</h3>
+                <p class="text-gray-600">
+                    Moving to a hostel for the first time? Don't worry! Pack light, be friendly with your roommates, and make the most of common areas. A positive attitude goes a long way.
+                </p>
+            </div>
+        </div>
+
+        <p class="text-lg text-gray-700 mt-8 font-medium">
+            Finding the right hostel doesn't have to be stressful. With H2H, it's quick, simple, and reliable. Start your search today and make your new home feel like a true "Home Away from Home"!
+        </p>
+    </div>
+</article>
   </section>
 
   <?php include 'includes/footer.php'; ?>

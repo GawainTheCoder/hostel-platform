@@ -69,7 +69,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="carousel-images">
                         <img src="assets/images/detail-hostel1-1.jpg" alt="Hostel Image 1" class="w-full h-48 object-cover">
                         <img src="assets/images/detail-hostel1-2.jpg" alt="Hostel Image 2" class="w-full h-48 object-cover hidden">
-                        <img src="assets/images/detail-hostel1-3.jpg" alt="Hostel Image 3" class="w-full h-48 object-cover hidden">
                     </div>
                     <button class="carousel-prev absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">‹</button>
                     <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">›</button>
@@ -78,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h2 class="font-bold text-lg mb-2">Al Banat Girls Hostel</h2>
                     <p class="text-sm text-gray-600 mb-1">Johar Town, Lahore</p>
                     <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 13,000/month</p>
-                    <a href="hostel-details.php?hostel=1" class="btn-green">View Details</a>                    </div>
+                    <a href="hostel-details.php?hostel=1" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>                    </div>
             </div>
 
             <!-- Hostel Card 2 -->
@@ -95,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h2 class="font-bold text-lg mb-2">Spacious Hostel in DHA</h2>
                     <p class="text-sm text-gray-600 mb-1">DHA, Lahore</p>
                     <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 20,000/month</p>
-                    <a href="hostel-details.php?hostel=2" class="btn-green">View Details</a>                    </div>
+                    <a href="hostel-details.php?hostel=2" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>                    </div>
             </div>
 
             <!-- Hostel Card 3 -->
@@ -114,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h2 class="font-bold text-lg mb-2">Makkah Girls Hostel</h2>
                     <p class="text-sm text-gray-600 mb-1">Muslim Town, Lahore</p>
                     <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 12,000/month</p>
-                    <a href="hostel-details.php?hostel=3" class="btn-green">View Details</a>                    </div>
+                    <a href="hostel-details.php?hostel=3" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>                    </div>
             </div>
             
             <!-- Hostel Card 4 -->
@@ -143,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2 class="font-bold text-lg mb-2">Al-Rasheed Boys Hostel</h2>
         <p class="text-sm text-gray-600 mb-1">Gulberg, Lahore</p>
         <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 17,000/month</p>
-        <a href="hostel-details.php?hostel=4" class="btn-green">View Details</a>
+        <a href="hostel-details.php?hostel=4" class="inline-block bg-[#065b53] text-white px-4 py-2 rounded hover:bg-[#054c46] transition-colors">View Details</a>
     </div>
 </div>
         </div>
