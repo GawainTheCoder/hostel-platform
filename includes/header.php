@@ -36,6 +36,12 @@
       >
         Landlords
       </a>
+      <a
+        href="aboutus.php"
+        class="text-gray-700 hover:text-orange-500 transition duration-300"
+      >
+        About Us
+      </a>
     </nav>
 
     <!-- Hamburger Button (visible on mobile) -->
@@ -77,6 +83,12 @@
     >
       Landlords
     </a>
+    <a
+        href="aboutus.php"
+        class="text-gray-700 hover:text-orange-500 transition duration-300"
+      >
+        About Us
+      </a>
   </div>
 </header>
 

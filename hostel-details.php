@@ -218,10 +218,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   Enquire
                 </button>
             </div>
-
             <p class="text-xs text-gray-500">
-                * Prices may vary depending on room type and availability.
-            </p>
+    * Prices may vary depending on room type and availability.
+</p>
+
+<!-- Amenities Section -->
+<h2 class="text-gray-700 text-xl font-semibold mb-4 text-center">Amenities</h2>
+
+<div class="grid grid-cols-2 gap-2 mt-4">
+  <div class="flex items-center space-x-2">
+    <img src="assets/images/verified.svg" alt="Verified Icon" class="w-6 h-6">
+    <span class="text-gray-700">Verified</span>
+  </div>
+  <div class="flex items-center space-x-2">
+    <img src="assets/images/security.svg" alt="Security Icon" class="w-6 h-6">
+    <span class="text-gray-700">CCTV Security</span>
+  </div>
+  <div class="flex items-center space-x-2">
+    <img src="assets/images/wifi.svg" alt="Wifi Icon" class="w-6 h-6">
+    <span class="text-gray-700">Wifi</span>
+  </div>
+  <div class="flex items-center space-x-2">
+    <img src="assets/images/quick_reg.svg" alt="Quick Registration Icon" class="w-6 h-6">
+    <span class="text-gray-700">Quick Registration</span>
+  </div>
+  <div class="flex items-center space-x-2">
+    <img src="assets/images/mess_aval.svg" alt="Mess Available Icon" class="w-6 h-6">
+    <span class="text-gray-700">Mess Available</span>
+  </div>
+</div>
         </div>
     </div>
 </section>

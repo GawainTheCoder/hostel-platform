@@ -52,23 +52,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Feature 1 -->
     <div class="flex flex-col items-center space-y-2">
       <img src="assets/images/feature1.png" alt="icon" class="w-16 h-16 mb-2">
-      <h3 class="text-lg font-bold text-gray-900">Trusted by 1m+ students</h3>
-      <p class="text-sm text-gray-600">Every year, we help over a million students find their ideal place</p>
+      <h3 class="text-lg font-bold text-gray-900">Trusted by students</h3>
+      <p class="text-sm text-gray-600">Join thousands of students who trust H2H for finding safe, reliable, and student-friendly hostels across Lahore</p>
 </div>
 <div class="flex flex-col items-center space-y-2">
       <img src="assets/images/feature4.png" alt="icon" class="w-16 h-16 mb-2">
       <h3 class="text-lg font-bold text-gray-900">Quick & easy bookings</h3>
-      <p class="text-sm text-gray-600">Secure your room in no time with hassle-free instant booking</p>
+      <p class="text-sm text-gray-600">Say goodbye to long searches! Find and book your ideal hostel in just a few clicks or a quick chat</p>
 </div>
 <div class="flex flex-col items-center space-y-2">
       <img src="assets/images/feature3.png" alt="icon" class="w-16 h-16 mb-2">
       <h3 class="text-lg font-bold text-gray-900">The widest choice</h3>
-      <p class="text-sm text-gray-600">Browse verified, affordable student rooms close to university</p>
+      <p class="text-sm text-gray-600">From budget-friendly to premium options, explore Lahore’s largest selection of verified hostels tailored for students</p>
 </div>
 <div class="flex flex-col items-center space-y-2">
       <img src="assets/images/feature2.png" alt="icon" class="w-16 h-16 mb-2">
       <h3 class="text-lg font-bold text-gray-900">We're here to help</h3>
-      <p class="text-sm text-gray-600">Reach out to our friendly team of experts who are always on hand</p>
+      <p class="text-sm text-gray-600">Confused? Stuck? Our friendly support team is just a message away to guide you every step of the way</p>
 </div>
   </div>
 </section>
@@ -162,14 +162,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     />
 </div>
       <div>
-        <p class="font-bold text-gray-800">Katie</p>
+        <p class="font-bold text-gray-800">Fatima</p>
         <!-- Star rating, etc. -->
         <div class="text-green-500 text-sm">★★★★★</div>
       </div>
     </div>
     <p class="text-sm text-gray-600">
-      “Very easy to use website, with a variety of properties, quick response times 
-      and very friendly and helpful staff.”
+      “H2H ki wajah se hostel dhoondhna first semester mein bohot easy ho gaya. Bas apne requirements bheje aur perfect match mil gaya. Highly recommend!”
     </p>
   </div>
       <!-- Review 2 -->
@@ -183,13 +182,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             />
           </div>
           <div>
-            <p class="font-bold text-gray-800">Olivia</p>
+            <p class="font-bold text-gray-800">Hassan</p>
             <div class="text-green-500 text-sm">★★★★★</div>
           </div>
         </div>
         <p class="text-sm text-gray-600">
-          “My first time looking for accommodation outside of uni halls, I was a bit nervous, 
-          but all my fears were wiped clean. This was such a smooth and hassle-free process.”
+        The platform is super easy to use! Found a hostel near my university in no time. 
+        Their chat support is amazing, really helpful throughout the process.”
         </p>
       </div>
       <!-- Review 3 -->
@@ -203,12 +202,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             />
           </div>
           <div>
-            <p class="font-bold text-gray-800">Hritika</p>
+            <p class="font-bold text-gray-800">Ali</p>
             <div class="text-green-500 text-sm">★★★★★</div>
           </div>
         </div>
         <p class="text-sm text-gray-600">
-          “I found a home in half a day and had the confirmation in hand. 10/10 would recommend!”
+          “Best platform for students! I found an affordable hostel in Johar Town with all the features I needed. 
+          Great initiative for students in Lahore!”
         </p>
       </div>
     </div>
@@ -258,6 +258,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Absolutely. Our support team is available 24/7 to help you with your queries.
         </div>
       </div>
+      
+      <!-- Q4 -->
+      <div class="border-b border-gray-200 pb-4">
+        <button 
+            class="faq-toggle w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center"
+        >
+            What if I need to cancel or change my booking?
+            <span class="ml-2 text-orange-500">+</span>
+        </button>
+        <div class="faq-content hidden mt-2 text-sm text-gray-600">
+            For cancellations or changes, you need to contact the hostel directly. However, our team can help you get in touch with the hostel if needed.
+        </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="border-b border-gray-200 pb-4">
+        <button 
+            class="faq-toggle w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center"
+        >
+            Are the hostels listed on H2H verified?
+            <span class="ml-2 text-orange-500">+</span>
+        </button>
+        <div class="faq-content hidden mt-2 text-sm text-gray-600">
+            Yes, all hostels listed on our platform are verified by our team. We ensure they meet basic safety, hygiene, and quality standards before adding them to our directory.
+        </div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="border-b border-gray-200 pb-4">
+        <button 
+            class="faq-toggle w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center"
+        >
+            How do I register for a hostel through H2H?
+            <span class="ml-2 text-orange-500">+</span>
+        </button>
+        <div class="faq-content hidden mt-2 text-sm text-gray-600">
+            You can register by using booking through our hostel profiles or through chat support on WhatsApp. Just share your requirements (location, budget, and room type) with our team, and they'll guide you through the process step by step.
+        </div>
+    </div>
     </div>
   </div>
 </section>

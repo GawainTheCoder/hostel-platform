@@ -3,6 +3,7 @@ module.exports = {
   content: [    
     "./index.php",
     "./guides.php",
+    "./aboutus.php",
     "./guide-detail1.php",
     "./guide-detail2.php",
     "./landlords.php",
