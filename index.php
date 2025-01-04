@@ -39,14 +39,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <option value="gulberg">Gulberg</option>
       </select>
     </div>
+
+    <!-- Price Filter -->
+    <div class="flex flex-col w-64">
+      <select id="price-sort" name="price-sort" class="border border-gray-300 rounded p-2">
+        <option value="">Sort by Price</option>
+        <option value="low-to-high">Low to High</option>
+        <option value="high-to-low">High to Low</option>
+      </select>
+    </div>
+
+    <!-- Gender Filter -->
+    <div class="flex flex-col w-64">
+      <select id="gender" name="gender" class="border border-gray-300 rounded p-2">
+        <option value="">All Hostels</option>
+        <option value="female">Female Only</option>
+        <option value="male">Male Only</option>
+      </select>
+    </div>
   </form>
 </section>
 
     <!-- Hostel Listing Grid -->
     <section class="max-w-6xl mx-auto px-4 py-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Hostel Card 1 -->
-            <div class="bg-white rounded shadow overflow-hidden" data-location="johar-town">
+    <div id="hostelGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Hostel Card 1 -->
+            <div class="bg-white rounded shadow overflow-hidden" data-location="johar-town" data-gender="female" data-price="13000">
                 <div class="carousel relative">
                     <div class="carousel-images">
                         <img src="assets/images/detail-hostel1-1.jpg" alt="Hostel Image 1" class="w-full h-48 object-cover">
@@ -64,7 +82,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <!-- Hostel Card 2 -->
-            <div class="bg-white rounded shadow overflow-hidden" data-location="dha">
+            <div class="bg-white rounded shadow overflow-hidden" data-location="dha" data-gender="female" data-price="20000">
                 <div class="carousel relative">
                     <div class="carousel-images">
                         <img src="assets/images/detail-hostel2-1.png" alt="Hostel Image 1" class="w-full h-48 object-cover">
@@ -81,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <!-- Hostel Card 3 -->
-            <div class="bg-white rounded shadow overflow-hidden" data-location="model-town">
+            <div class="bg-white rounded shadow overflow-hidden" data-location="model-town" data-gender="female" data-price="12000">
                 <div class="carousel relative">
                     <div class="carousel-images">
                         <img src="assets/images/detail-hostel3-1.jpg" alt="Hostel Image 1" class="w-full h-48 object-cover">
@@ -100,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             
             <!-- Hostel Card 4 -->
-<div class="bg-white rounded shadow overflow-hidden" data-location="gulberg">
+<div class="bg-white rounded shadow overflow-hidden" data-location="gulberg" data-gender="male" data-price="17000">
     <div class="carousel relative">
         <div class="carousel-images">
             <!-- First image -->

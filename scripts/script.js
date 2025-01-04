@@ -30,18 +30,46 @@ $(document).ready(function() {
         });
     });
 
-    // Filter functionality
-    $('#location').on('change', function() {
-        var selectedLocation = $(this).val();
+    // Filter and sort functionality
+    function filterHostels() {
+        const selectedLocation = $('#location').val();
+        const selectedGender = $('#gender').val();
+        const selectedPriceSort = $('#price-sort').val();
         
-        if (!selectedLocation) {
-            // No location selected, show all hostels
-            $('[data-location]').show();
-        } else {
-            // Hide all, then show only those that match the selected location
-            $('[data-location]').hide();
-            $('[data-location="' + selectedLocation + '"]').show();
+        let $hostels = $('[data-location]');
+        
+        // Apply location filter
+        if (selectedLocation) {
+            $hostels = $hostels.filter(`[data-location="${selectedLocation}"]`);
         }
-    });
+        
+        // Apply gender filter
+        if (selectedGender) {
+            $hostels = $hostels.filter(`[data-gender="${selectedGender}"]`);
+        }
+        
+        // Hide all hostels first
+        $('[data-location]').hide();
+        
+        // Show filtered hostels
+        $hostels.show();
+        
+        // Sort by price if selected
+        if (selectedPriceSort) {
+            const $container = $('#hostelGrid'); // instead of $('.grid')
+            const $cards = $hostels.toArray();
+            
+            $cards.sort((a, b) => {
+                const priceA = parseInt($(a).data('price'));
+                const priceB = parseInt($(b).data('price'));
+                return selectedPriceSort === 'low-to-high' ? priceA - priceB : priceB - priceA;
+            });
+            
+            $cards.forEach(card => $container.append(card));
+        }
+    }
+
+    // Event listeners for filters
+    $('#location, #gender, #price-sort').on('change', filterHostels);
 });
 
