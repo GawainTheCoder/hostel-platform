@@ -1,5 +1,5 @@
 <!-- Footer Section -->
-<footer class="bg-gray-900 text-white py-8">
+<footer class="bg-[#038C7F] text-white py-8">
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
             <h3 class="font-bold mb-2">About Us</h3>

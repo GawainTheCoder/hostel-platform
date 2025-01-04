@@ -9,20 +9,20 @@
         alt="Hostel Logo"
         class="h-8 w-auto object-contain"
       />
-      <span class="ml-2 text-lg font-bold text-gray-800">HAFH</span>
+      <span class="ml-2 text-lg font-bold text-gray-800 font-['Dream_Avenue']">H2H</span>
     </a>
 
     <!-- Desktop Nav -->
     <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-      <a
-        href="index.php"
-        class="px-4 py-2 rounded-md text-white bg-orange-500 
-               border border-orange-500
-               hover:bg-orange-600 hover:border-orange-600 
-               transition duration-300"
-      >
-        Book Now
-      </a>
+    <a
+    href="index.php"
+    class="px-4 py-2 rounded-md text-white bg-[#065b53] 
+           border border-[#065b53]
+           hover:bg-[#054c46] hover:border-[#054c46] 
+           transition duration-300"
+>
+    Book Now
+</a>
 
       <a
         href="guides.php"
@@ -60,10 +60,10 @@
   <div id="mobileNav" class="hidden md:hidden px-6 pb-4 flex flex-col space-y-3 text-sm font-medium">
     <a
       href="index.php"
-      class="px-4 py-2 rounded-md text-white bg-orange-500 
-             border border-orange-500
-             hover:bg-orange-600 hover:border-orange-600 
-             transition duration-300"
+      class="px-4 py-2 rounded-md text-white bg-[#065b53] 
+           border border-[#065b53]
+           hover:bg-[#054c46] hover:border-[#054c46] 
+           transition duration-300"
     >
       Book Now
     </a>

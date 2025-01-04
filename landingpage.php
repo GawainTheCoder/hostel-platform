@@ -28,40 +28,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php include 'includes/header.php'; ?>
 
 <!-- Hero Section -->
-<section class="relative bg-[#c7eae4]">
-  <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
-    
-    <!-- Text Content -->
-    <div class="flex flex-col justify-center">
-      <h1 id="landing-heading" class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-        The home of student accommodation
-      </h1>
-      <p class="text-lg text-gray-500 mb-6">
-        Search Pk's No.1 Student Accommodation Website
-      </p>
-      <!-- Instead of a search bar, we have a "Book Now" button -->
-      <a href="index.php" class="inline-block w-fit bg-orange-500 text-white px-6 py-3 rounded-md 
-                                text-base font-semibold hover:bg-orange-600 transition-colors">
+<section class="relative">
+  <div>
+    <img 
+      src="assets/images/banner.jpeg" 
+      alt="Banner Image" 
+      class="w-full min-h-[200px] sm:aspect-[16/9] sm:h-[350px] md:h-[450px] lg:h-[550px] object-cover object-center"
+    >
+  </div>
+  <div class="bg-[#065b53] px-4 py-4">
+    <div class="max-w-6xl mx-auto flex justify-center sm:justify-start">
+      <a href="index.php" 
+         class="inline-block bg-[#f89a44] text-[#065b53] px-6 sm:px-8 py-2 sm:py-3 rounded-full text-sm sm:text-base font-semibold shadow-lg hover:shadow-md hover:bg-[#f77a25] transition-all ml-4 sm:ml-32">
         Book Now
       </a>
-      <!-- Trustpilot line (or any rating snippet) -->
-      <div class="mt-6 flex items-center">
-        <span class="mr-2 text-sm font-semibold text-gray-600">Excellent</span>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Trustpilot_logo_black_and_green.svg" 
-             alt="Trustpilot" class="h-5 w-auto"/>
-      </div>
-    </div>
-    
-    <!-- Hero Image (Placeholder or your real image) -->
-    <div class="relative flex items-center justify-center">
-      <!-- Background circle / shape for styling (optional) -->
-      <div class="absolute -z-10 bg-orange-100 rounded-full w-72 h-72 md:w-96 md:h-96 
-                  right-0 top-16 md:top-0 md:right-16 pointer-events-none"></div>
-      <img 
-        src="https://via.placeholder.com/400x400?text=Hero+Woman+Image" 
-        alt="Hero Woman Image" 
-        class="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full"
-      >
     </div>
   </div>
 </section>
@@ -71,28 +51,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
     <!-- Feature 1 -->
     <div class="flex flex-col items-center space-y-2">
-      <img src="https://via.placeholder.com/60?text=Icon" alt="icon" class="mb-2">
+      <img src="assets/images/feature1.png" alt="icon" class="w-16 h-16 mb-2">
       <h3 class="text-lg font-bold text-gray-900">Trusted by 1m+ students</h3>
       <p class="text-sm text-gray-600">Every year, we help over a million students find their ideal place</p>
-    </div>
-    <!-- Feature 2 -->
-    <div class="flex flex-col items-center space-y-2">
-      <img src="https://via.placeholder.com/60?text=Icon" alt="icon" class="mb-2">
+</div>
+<div class="flex flex-col items-center space-y-2">
+      <img src="assets/images/feature4.png" alt="icon" class="w-16 h-16 mb-2">
       <h3 class="text-lg font-bold text-gray-900">Quick & easy bookings</h3>
       <p class="text-sm text-gray-600">Secure your room in no time with hassle-free instant booking</p>
-    </div>
-    <!-- Feature 3 -->
-    <div class="flex flex-col items-center space-y-2">
-      <img src="https://via.placeholder.com/60?text=Icon" alt="icon" class="mb-2">
+</div>
+<div class="flex flex-col items-center space-y-2">
+      <img src="assets/images/feature3.png" alt="icon" class="w-16 h-16 mb-2">
       <h3 class="text-lg font-bold text-gray-900">The widest choice</h3>
       <p class="text-sm text-gray-600">Browse verified, affordable student rooms close to university</p>
-    </div>
-    <!-- Feature 4 -->
-    <div class="flex flex-col items-center space-y-2">
-      <img src="https://via.placeholder.com/60?text=Icon" alt="icon" class="mb-2">
-      <h3 class="text-lg font-bold text-gray-900">We’re here to help</h3>
+</div>
+<div class="flex flex-col items-center space-y-2">
+      <img src="assets/images/feature2.png" alt="icon" class="w-16 h-16 mb-2">
+      <h3 class="text-lg font-bold text-gray-900">We're here to help</h3>
       <p class="text-sm text-gray-600">Reach out to our friendly team of experts who are always on hand</p>
-    </div>
+</div>
   </div>
 </section>
 
@@ -177,27 +154,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="bg-white rounded-md p-6 shadow">
         <div class="flex items-center mb-2">
           <!-- Initials or avatar -->
-          <div class="w-10 h-10 bg-gray-300 text-gray-800 rounded-full flex items-center 
-                      justify-center font-semibold mr-3">
-            KA
-          </div>
-          <div>
-            <p class="font-bold text-gray-800">Katie</p>
-            <!-- Star rating, etc. -->
-            <div class="text-green-500 text-sm">★★★★★</div>
-          </div>
-        </div>
-        <p class="text-sm text-gray-600">
-          “Very easy to use website, with a variety of properties, quick response times 
-          and very friendly and helpful staff.”
-        </p>
+          <div class="w-10 h-10 mr-3">
+    <img 
+        src="assets/images/katie.png" 
+        alt="Profile picture" 
+        class="w-full h-full rounded-full object-cover"
+    />
+</div>
+      <div>
+        <p class="font-bold text-gray-800">Katie</p>
+        <!-- Star rating, etc. -->
+        <div class="text-green-500 text-sm">★★★★★</div>
       </div>
+    </div>
+    <p class="text-sm text-gray-600">
+      “Very easy to use website, with a variety of properties, quick response times 
+      and very friendly and helpful staff.”
+    </p>
+  </div>
       <!-- Review 2 -->
       <div class="bg-white rounded-md p-6 shadow">
         <div class="flex items-center mb-2">
-          <div class="w-10 h-10 bg-gray-300 text-gray-800 rounded-full flex items-center 
-                      justify-center font-semibold mr-3">
-            OL
+          <div class="w-10 h-10 mr-3">
+            <img 
+              src="assets/images/olivia.png" 
+              alt="Profile picture" 
+              class="w-full h-full rounded-full object-cover"
+            />
           </div>
           <div>
             <p class="font-bold text-gray-800">Olivia</p>
@@ -212,9 +195,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Review 3 -->
       <div class="bg-white rounded-md p-6 shadow">
         <div class="flex items-center mb-2">
-          <div class="w-10 h-10 bg-gray-300 text-gray-800 rounded-full flex items-center 
-                      justify-center font-semibold mr-3">
-            HR
+          <div class="w-10 h-10 mr-3">
+            <img 
+              src="assets/images/hr.jpg" 
+              alt="Profile picture" 
+              class="w-full h-full rounded-full object-cover"
+            />
           </div>
           <div>
             <p class="font-bold text-gray-800">Hritika</p>

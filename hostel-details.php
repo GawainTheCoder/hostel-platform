@@ -85,6 +85,33 @@ Alternative Number: 0324-4444150
 
 The management team is available during business hours to address queries and provide detailed information about the facility.";
 }
+
+// If hostel ID is 4
+if ($hostelId == 4) {
+  $title = "Al-Rasheed Boys Hostel";
+  $location = "Gulberg, Lahore";
+  $price = "From PKR 17,000/month";
+  $images = [
+      "assets/images/detail-hostel4-1.jpg",
+      // Since this second entry is a video, you can handle it in the front-end 
+      // by detecting file extension (or simply place it in an <video> tag).
+      "assets/images/detail-hostel4-2.mp4",
+      "assets/images/detail-hostel4-3.jpg",
+      "assets/images/detail-hostel4-4.png"
+  ];
+  
+  // Main overview
+  $overviewMain = "Al-Rasheed Boys Hostel in Gulberg, Lahore, provides a comfortable and well-furnished living space for male students and working professionals. "
+      . "With easy access to public transport, grocery stores, and popular eateries, this hostel’s central location offers a blend of convenience and affordability. "
+      . "Residents can choose between single, double, or triple sharing rooms, each designed to ensure privacy and comfort.";
+
+  // Additional details
+  $overviewMore = "The hostel features a common dining area and a dedicated kitchen space for those who prefer to cook their own meals. "
+      . "High-speed Wi-Fi and laundry facilities are available to all residents, making day-to-day life a breeze. "
+      . "For inquiries and booking details, interested individuals can reach the management on the provided contact number. "
+      . "Tours of the facility can be arranged with prior appointment.";
+}
+
 ?>
 
 <?php include 'includes/header.php'; ?>
@@ -124,13 +151,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="lg:col-span-2 relative">
             <div class="carousel relative h-80 md:h-[500px] overflow-hidden rounded shadow">
                 <div class="carousel-images h-full w-full">
-                    <?php foreach($images as $index => $img): ?>
-                        <img 
-                            src="<?php echo $img; ?>" 
-                            alt="Hostel Image <?php echo $index+1; ?>" 
-                            class="w-full h-full object-cover <?php echo $index > 0 ? 'hidden' : ''; ?>"
-                        >
-                    <?php endforeach; ?>
+                <?php foreach ($images as $index => $media): ?>
+    <?php
+        // Check the file extension
+        $extension = pathinfo($media, PATHINFO_EXTENSION);
+        $isVideo = in_array(strtolower($extension), ['mp4', 'webm', 'ogg']);
+    ?>
+    <?php if (!$isVideo): ?>
+        <!-- Render as an image if NOT a video -->
+        <img
+            src="<?php echo $media; ?>"
+            alt="Slide <?php echo $index+1; ?>"
+            class="w-full h-full object-cover <?php echo $index > 0 ? 'hidden' : ''; ?>"
+        >
+    <?php else: ?>
+        <!-- Render as a video if it IS a video -->
+        <video
+            controls
+            class="w-full h-full object-cover <?php echo $index > 0 ? 'hidden' : ''; ?>"
+        >
+            <source src="<?php echo $media; ?>" type="video/mp4">
+            <!-- Optional fallback text -->
+            Your browser does not support the video tag.
+        </video>
+    <?php endif; ?>
+<?php endforeach; ?>
+
                 </div>
                 <!-- Carousel controls -->
                 <button 

@@ -32,10 +32,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
     <div class="flex flex-col w-64">
       <select id="location" name="location" class="border border-gray-300 rounded p-2">
-        <option value="">All Locations</option>
+        <option value="">Lahore</option>
         <option value="johar-town">Johar Town</option>
         <option value="dha">DHA</option>
         <option value="model-town">Muslim Town</option>
+        <option value="gulberg">Gulberg</option>
       </select>
     </div>
   </form>
@@ -97,6 +98,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 12,000/month</p>
                     <a href="hostel-details.php?hostel=3" class="btn-green">View Details</a>                    </div>
             </div>
+            
+            <!-- Hostel Card 4 -->
+<div class="bg-white rounded shadow overflow-hidden" data-location="gulberg">
+    <div class="carousel relative">
+        <div class="carousel-images">
+            <!-- First image -->
+            <img src="assets/images/detail-hostel4-1.jpg" alt="Hostel Image 1" class="w-full h-48 object-cover">
+
+            <!-- Video as second slide -->
+            <video controls class="w-full h-48 object-cover hidden">
+                <source src="assets/images/detail-hostel4-2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Third image -->
+            <img src="assets/images/detail-hostel4-3.jpg" alt="Hostel Image 3" class="w-full h-48 object-cover hidden">
+
+            <!-- Fourth image -->
+            <img src="assets/images/detail-hostel4-4.png" alt="Hostel Image 4" class="w-full h-48 object-cover hidden">
+        </div>
+        <button class="carousel-prev absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">‹</button>
+        <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white px-2 py-1 rounded">›</button>
+    </div>
+    <div class="p-4">
+        <h2 class="font-bold text-lg mb-2">Al-Rasheed Boys Hostel</h2>
+        <p class="text-sm text-gray-600 mb-1">Gulberg, Lahore</p>
+        <p class="text-sm font-semibold text-gray-800 mb-4">From PKR 17,000/month</p>
+        <a href="hostel-details.php?hostel=4" class="btn-green">View Details</a>
+    </div>
+</div>
         </div>
     </section>
 

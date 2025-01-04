@@ -14,3 +14,8 @@
 .nav-link {
     @apply text-gray-700 hover:text-orange-500;
 }
+
+@font-face {
+    font-family: 'Dream_Avenue';
+    src: url('../assets/fonts/Dream_Avenue.ttf') format('truetype');
+}

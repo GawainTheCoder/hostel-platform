@@ -2,39 +2,32 @@ $(document).ready(function() {
     // Simple carousel functionality for each hostel card
     $('.carousel').each(function() {
         const $carousel = $(this);
-        const $images = $carousel.find('.carousel-images img');
+        // Select both <img> and <video> within .carousel-images
+        const $slides = $carousel.find('.carousel-images img, .carousel-images video');
         let currentIndex = 0;
 
-        // Show first image initially
-        $images.hide().eq(currentIndex).show();
+        // Show first slide initially
+        $slides.hide().eq(currentIndex).show();
 
         // Next button
         $carousel.find('.carousel-next').on('click', function() {
-            $images.eq(currentIndex).hide();
-            currentIndex = (currentIndex + 1) % $images.length;
-            $images.eq(currentIndex).fadeIn();
+            // Hide current
+            $slides.eq(currentIndex).hide();
+            // Increment index
+            currentIndex = (currentIndex + 1) % $slides.length;
+            // Show next
+            $slides.eq(currentIndex).fadeIn();
         });
 
         // Prev button
         $carousel.find('.carousel-prev').on('click', function() {
-            $images.eq(currentIndex).hide();
-            currentIndex = (currentIndex - 1 + $images.length) % $images.length;
-            $images.eq(currentIndex).fadeIn();
+            // Hide current
+            $slides.eq(currentIndex).hide();
+            // Decrement index
+            currentIndex = (currentIndex - 1 + $slides.length) % $slides.length;
+            // Show previous
+            $slides.eq(currentIndex).fadeIn();
         });
-    });
-
-    // Filter functionality (no page reload)
-    $('#filterBtn').on('click', function() {
-        var selectedLocation = $('#location').val();
-        
-        if (!selectedLocation) {
-            // No location selected, show all hostels
-            $('[data-location]').show();
-        } else {
-            // Hide all, then show only those that match the selected location
-            $('[data-location]').hide();
-            $('[data-location="' + selectedLocation + '"]').show();
-        }
     });
 
     // Filter functionality
